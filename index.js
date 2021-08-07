@@ -54,7 +54,7 @@ app.post('/', (req, res) => {
                         error: err.message
                     })
                 }else{
-                   res.redirect('hhtps://twinkleandblink.com/ebook.pdf')
+                   res.redirect('https://twinkleandblink.com/ebook.pdf')
                 }
             })
         }
