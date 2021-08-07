@@ -3,7 +3,6 @@ const app = express()
 const port = process.env.PORT || 3000
 const cors = require('cors')
 const sql = require('mysql')
-const mailer = require('./mailer')
 
 app.use(cors())
 app.use(express.urlencoded({extended: true}));
